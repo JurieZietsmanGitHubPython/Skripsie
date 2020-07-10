@@ -3716,6 +3716,7 @@ class window(QMainWindow):
     def toggleTab(self):
         self.tabWidget.setCurrentIndex(1)
         self.results_tab.setEnabled(True)
+        self.results_frame.setEnabled(True)
 
     ##############################################################
     # Functions for feature selection
